@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #000 !important;
 }
 
+.text-gray {
+  color: rgb(66, 66, 66) !important;
+}
+
 .text-primary {
   color: #2d71a1 !important;
 }
@@ -69,7 +73,7 @@ section {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 
 .section-heading {
@@ -80,7 +84,21 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
+.section-heading2 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.section-heading3 {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 /*--------------------------------------------------------------
@@ -438,7 +456,7 @@ section {
 
 /* Blog */
 .post-entry {
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
 
 .post-entry .post-text .post-meta {
@@ -866,7 +884,7 @@ section {
 
 .hero-section, .hero-section > .container > .row {
   height: 100vh;
-  min-height: 880px;
+  min-height: 780px;
 }
 
 .hero-section.inner-page {
@@ -927,7 +945,7 @@ section {
   overflow: hidden;
   left: 0;
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -944,7 +962,7 @@ section {
 
 @media screen and (max-width: 992px) {
   .hero-section .iphone-wrap .phone-1 {
-    margin-left: -150px;
+    margin-left: 0px;
   }
 }
 
@@ -1019,4 +1037,31 @@ section {
 
 .social a i {
   line-height: 0;
+}
+
+.texto{
+color: rgb(255, 255, 255);
+}
+
+.imgPerfil{
+  display:block;
+  margin:auto;
+  border-radius: 100%;
+  }
+
+
+img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
 }
